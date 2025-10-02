@@ -1,0 +1,22 @@
+{
+  "name": "infra",
+  "version": "1.0.0",
+  "description": "Last Words AWS CDK infrastructure",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "synth": "cdk synth",
+    "deploy": "cdk deploy --require-approval never",
+    "destroy": "cdk destroy"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.133.0",
+    "constructs": "^10.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "aws-cdk": "^2.133.0",
+    "typescript": "^5.4.2"
+  }
+}
